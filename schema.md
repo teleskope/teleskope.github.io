@@ -34,9 +34,10 @@
 }
 ```
 
-# Company
+# Company extends User
 ```
 {
+  super
   name: String,
   website: String,
   address: String,
