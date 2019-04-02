@@ -31,10 +31,16 @@ Teleskope is an application that provides a new way for local and non-local comp
 # Mockups
 ## Landing page
 
-## Student Homepage (logged in)
+<img width="200px" src="images/landing.png"/>
 
-## Company Homepage (logged in)
+## Company Index (logged in)
+
+<img width="200px" src="images/companies_index.png"/>
 
 ## Student profile page
 
+<img width="200px" src="images/student_profile.png"/>
+
 ## Company profile page
+
+<img width="200px" src="images/company_profile.png"/>
