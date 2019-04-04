@@ -22,6 +22,9 @@ Teleskope is an application that provides a new way for local and non-local comp
 - companies
   - index (/companies)
   - show (/companies/:id)
+- jobs
+  - index(/companies/:id/jobs)
+  - show(/companies/:id/jobs/:jobid)
 - settings 
   - edit profile (/settings/profile)
 - Authentication
@@ -31,16 +34,27 @@ Teleskope is an application that provides a new way for local and non-local comp
 # Mockups
 ## Landing page
 
-<img width="200px" src="images/landing.png"/>
+<img width="500px" src="images/landing.png"/>
 
 ## Company Index (logged in)
 
-<img width="200px" src="images/companies_index.png"/>
+<img width="500px" src="images/companies_index.png"/>
 
 ## Student profile page
 
-<img width="200px" src="images/student_profile.png"/>
+<img width="500px" src="images/student_profile.png"/>
 
 ## Company profile page
 
-<img width="200px" src="images/company_profile.png"/>
+<img width="500px" src="images/company_profile.png"/>
+
+## Job show
+
+<img width="500px" src="images/job_show.png"/>
+
+
+# Actors
+
+* Student
+* Company
+* Administrator 
