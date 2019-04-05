@@ -59,8 +59,9 @@
 ```
 
 
-# Schema Example (Stuff)
+# Model Mongo Actions Example (Stuff)
 ```
+// app/imports/startup/server/stuff.js
 import { Meteor } from 'meteor/meteor';
 import { Roles } from 'meteor/alanning:roles';
 import { Stuffs } from '../../api/stuff/stuff.js';
