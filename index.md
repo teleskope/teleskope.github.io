@@ -34,7 +34,7 @@ Teleskope is an application that provides a new way for local and non-local comp
 # Mockups
 ## Landing page
 
-<img width="500px" src="images/landing.png"/>
+<img width="500px" src="images/landing2.png"/>
 
 ## Company Index (logged in)
 
