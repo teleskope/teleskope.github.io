@@ -49,12 +49,29 @@
 }
 ```
 
+# Jobs 
+```
+{
+  title: String,
+  employmentType: {
+    type: String,
+    allowedValues: ['Full Time', 'Part Time'],
+    defaultValue: 'Full Time',
+  }
+  date: String, 
+  description: String,
+  location: String,
+  skills: Array[skill_ids],
+  requirements: String,
+  companyID: String,
+}
+```
 
 # Skills
 ```
 {
   name: String,
-  description: Text,
+  description: String,
 }
 ```
 
