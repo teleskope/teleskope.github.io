@@ -13,6 +13,10 @@ Teleskope is an application that provides a new way for local and non-local comp
 * Students can find companies that match their skillset & interests. 
 * Companies can easily view interested students and receive emails. 
 
+## Project Boards
+* [Milestone 1](https://github.com/teleskope/teleskope/projects/1)
+* [Milestone 2](https://github.com/teleskope/teleskope/projects/2)
+
 # routes 
 - root (/) 
 > root path will change depending on whether a user is authenticated as a Admin, Student or a Company. Landing page will be displayed if not logged in. 
