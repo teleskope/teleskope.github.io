@@ -1,11 +1,22 @@
 # Table of contents
 
 * [About Teleskope](#about-teleskope)
+* [Installation](#installation)
 * [Project Goals](#project-goals)
+  * [Project Boards](#project-boards)
 * [Mockups](#mockups)
 
 # About Teleskope
 Teleskope is an application that provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site with their interests. The site can match students to employers and vice-versa.
+
+# Installation
+1. Install Meteor
+2. Fork this repo
+3. CD in to the project's app directory and install dependencies
+> `$ meteor npm install`
+4. Run the app
+>  `$ meteor npm start`
+5. Go to `localhost:3000` 
 
 # Project Goals
 * Students and Companies can create accounts. 
