@@ -1,3 +1,5 @@
+Visit our deployed page at [http://teleskope.meteorapp.com/](http://teleskope.meteorapp.com/#/)
+
 # Table of contents
 
 * [About Teleskope](#about-teleskope)
