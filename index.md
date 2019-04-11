@@ -55,6 +55,14 @@ Teleskope is an application that provides a new way for local and non-local comp
 
 <img width="500px" src="images/job_show.png"/>
 
+## Student Registration
+
+<img width="500px" src="images/registerstudent.png"/>
+
+## Company Registration
+
+<img width="500px" src="images/registercompany.png"/>
+
 # Actors
 
 * Student
