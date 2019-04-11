@@ -28,6 +28,37 @@ Teleskope is an application that provides a new way for local and non-local comp
 * [Milestone 1](https://github.com/teleskope/teleskope/projects/1)
 * [Milestone 2](https://github.com/teleskope/teleskope/projects/2)
 
+# Mockups
+## Landing page
+
+<img width="500px" src="images/Landing.png"/>
+
+## Company Index (logged in)
+
+<img width="500px" src="images/ListCompanies.png"/>
+
+## Company Index (logged in)
+
+<img width="500px" src="images/ListStudents.png"/>
+
+## Student profile page
+
+<img width="500px" src="images/student_profile.png"/>
+
+## Company profile page
+
+<img width="500px" src="images/ShowCompany.png"/>
+
+## Job show
+
+<img width="500px" src="images/job_show.png"/>
+
+# Actors
+
+* Student
+* Company
+* Administrator 
+
 # routes 
 - root (/) 
 > root path will change depending on whether a user is authenticated as a Admin, Student or a Company. Landing page will be displayed if not logged in. 
@@ -45,31 +76,3 @@ Teleskope is an application that provides a new way for local and non-local comp
 - Authentication
   - registration (/sign-up)
   - sign in (/sign-in)
-
-# Mockups
-## Landing page
-
-<img width="500px" src="images/landing2.png"/>
-
-## Company Index (logged in)
-
-<img width="500px" src="images/companies_index.png"/>
-
-## Student profile page
-
-<img width="500px" src="images/student_profile.png"/>
-
-## Company profile page
-
-<img width="500px" src="images/company_profile.png"/>
-
-## Job show
-
-<img width="500px" src="images/job_show.png"/>
-
-
-# Actors
-
-* Student
-* Company
-* Administrator 
