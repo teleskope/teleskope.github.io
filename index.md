@@ -39,7 +39,7 @@ Teleskope is an application that provides a new way for local and non-local comp
 
 <img width="500px" src="images/ListCompanies.png"/>
 
-## Company Index (logged in)
+## Students Index (logged in)
 
 <img width="500px" src="images/ListStudents.png"/>
 
