@@ -1,5 +1,6 @@
+github:
+  repository_url: https://github.com/teleskope/teleskope
 theme: jekyll-theme-slate
 description: Helping companies find stars
 title: TeleSkope
-github:
-  repository_url: https://github.com/teleskope/teleskope
+
