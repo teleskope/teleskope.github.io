@@ -13,6 +13,16 @@ Visit our deployed page at [http://teleskope.meteorapp.com/](http://teleskope.me
 # About Teleskope
 Teleskope is an application that provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site with their interests. The site can match students to employers and vice-versa.
 
+### Visit our deployed page
+[teleskope.meteorapp.com/](http://teleskope.meteorapp.com/#/)
+
+### Check out our progress on our Project Boards
+* [Milestone 1](https://github.com/teleskope/teleskope/projects/1)
+* [Milestone 2](https://github.com/teleskope/teleskope/projects/2)
+
+### See our code on Github!
+[github.com/teleskope/teleskope](https://github.com/teleskope/teleskope)
+
 # Installation
 1. Install Meteor
 2. Fork this repo
