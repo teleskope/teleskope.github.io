@@ -74,7 +74,7 @@ This page is for companies to browse students who they might want to reach out t
 ![image](images/ListStudents.png)
 
 ## Student profile page
-![image](images/student_profile.png)
+![image](images/ShowStudent.png)
 
 ## Company profile page
 ![image](images/ShowCompany.png)
