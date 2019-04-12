@@ -65,36 +65,28 @@ This page is for companies to browse students who they might want to reach out t
 
 # Mockups
 ## Landing page
-
-<img width="500px" src="images/Landing.png"/>
+![image](images/Landing.png)
 
 ## Company Index (logged in)
-
-<img width="500px" src="images/ListCompanies.png"/>
+![image](images/ListCompanies.png)
 
 ## Students Index (logged in)
-
-<img width="500px" src="images/ListStudents.png"/>
+![image](images/ListStudents.png)
 
 ## Student profile page
-
-<img width="500px" src="images/student_profile.png"/>
+![image](images/student_profile.png)
 
 ## Company profile page
-
-<img width="500px" src="images/ShowCompany.png"/>
+![image](images/ShowCompany.png)
 
 ## Job show
-
-<img width="500px" src="images/job_show.png"/>
+![image](images/job_show.png)
 
 ## Student Registration
-
-<img width="500px" src="images/registerstudent.png"/>
+![image](images/registerstudent.png)
 
 ## Company Registration
-
-<img width="500px" src="images/registercompany.png"/>
+![image](images/registercompany.png)
 
 # Actors
 
