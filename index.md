@@ -1,5 +1,3 @@
-Visit our deployed page at [http://teleskope.meteorapp.com/](http://teleskope.meteorapp.com/#/)
-
 # Table of contents
 
 * [About Teleskope](#about-teleskope)
@@ -31,6 +29,29 @@ Teleskope is an application that provides a new way for local and non-local comp
 4. Run the app
 >  `$ meteor npm start`
 5. Go to `localhost:3000` 
+
+# User Guide
+This section will showcase the different pages on our site including what they do and what they look like!
+
+### Landing
+The landing page serves to welcome you to the site and direct you to register as a student or company while offering information about how the site is doing and who we are.
+![image](https://user-images.githubusercontent.com/26986171/56009680-5a2b5480-5c7c-11e9-9267-d283e66a58ee.png)
+
+### Dashboard
+The dashboard is the first page you are directed to once you log in. Similar to the landing page, it also acts as your hub for showing quick viewing of companies fit for you, or potential employees if you are logged in as a company.
+
+### My Profile
+This page is for viewing everything about yourself. If you're a student it's your place that companies will find information about you to decide if they want to hire you. If you're a company it will show your company information and list your current openings.
+
+### Companies
+This page is for students to browse companies that are on the site that they might want to reach out to or express interest in.
+
+![image](https://user-images.githubusercontent.com/26986171/56010212-78924f80-5c7e-11e9-9f69-9c70d78deb24.png)
+
+### Students
+This page is for companies to browse students who they might want to reach out to given information listed in the jobs the company has available.
+
+![image](https://user-images.githubusercontent.com/26986171/56010216-7def9a00-5c7e-11e9-8d5c-9c8f095ffd1b.png)
 
 # Project Goals
 * Students and Companies can create accounts. 
