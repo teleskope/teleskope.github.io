@@ -80,7 +80,7 @@ This page is for companies to browse students who they might want to reach out t
 ![image](images/ShowCompany.png)
 
 ## Job show
-![image](images/job_show.png)
+![image](images/ShowJob.png)
 
 ## Student Registration
 ![image](images/registerstudent.png)
