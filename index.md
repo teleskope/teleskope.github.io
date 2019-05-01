@@ -38,7 +38,10 @@ The landing page serves to welcome you to the site and direct you to register as
 ![image](images/Landingv2.png)
 
 ### Dashboard
-The dashboard is the first page you are directed to once you log in. Similar to the landing page, it also acts as your hub for showing quick viewing of companies fit for you, or potential employees if you are logged in as a company.
+The dashboard is the first page you are directed to once you log in. It serves as your hub for viewing any notifications you have about companies interested in you and companies you are following or students you are interested in if you are logged in as a company.
+
+![image](images/Dashboard.png)
+
 
 ### My Profile
 This page is for viewing everything about yourself. If you're a student it's your place that companies will find information about you to decide if they want to hire you. If you're a company it will show your company information and list your current openings.
