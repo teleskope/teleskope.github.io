@@ -17,6 +17,7 @@ Teleskope is an application that provides a new way for local and non-local comp
 ### Check out our progress on our Project Boards
 * [Milestone 1](https://github.com/teleskope/teleskope/projects/1)
 * [Milestone 2](https://github.com/teleskope/teleskope/projects/2)
+* [Milestone 3](https://github.com/teleskope/teleskope/projects/3)
 
 ### See our code on Github!
 [github.com/teleskope/teleskope](https://github.com/teleskope/teleskope)
