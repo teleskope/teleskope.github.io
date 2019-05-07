@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About Teleskope](#about-teleskope)
+* [Developer Guide](#developer-guide)
 * [Installation](#installation)
 * [Project Goals](#project-goals)
   * [Project Boards](#project-boards)
