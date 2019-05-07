@@ -119,6 +119,7 @@ This page is for companies to browse students who they might want to reach out t
 ![image](images/registercompany.png)
 
 ## Edit Company
+![image](images/EditCompany.png)
 
 ## Add Job
 ![image](images/AddJob.png)
