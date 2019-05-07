@@ -17,6 +17,12 @@ Teleskope is an application that provides a new way for local and non-local comp
 2. Did not like the fact that when you submit an account, it does not redirect you from the registration page.
 3. Thought the follow function was very useful for keeping track of job postings.
 
+#### Dan S.
+1. Thought the CTA buttons like login, registraion, switch registration were easy to use. 
+2. Liked how easy it was to follow a company 
+3. Thought the sorting types would be more intuitive if they could be reversed as well. 
+4. Thinks navigating to your own student profile should allow you to edit it instead of having to go to the /profile path. 
+
 
 
 
