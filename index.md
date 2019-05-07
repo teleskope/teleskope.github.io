@@ -65,12 +65,16 @@ This page is for viewing everything about yourself. If you're a student it's you
 ![image](images/Profile.png)
 
 ### Companies
-This page is for students to browse companies that are on the site that they might want to reach out to or express interest in.
+This page is for students to browse companies that are on the site that they might want to reach out to or express interest in. At the top of the page are displayed 3 comanies that match the user the best. Below is a sortable list of all of the companies. Users can favorite a company from this page or select a company to find out more.
 
 ![image](images/ListCompanies.png)
 
+### Job 
+A user can see an individual job posting for a company, its description and click to link them to the online application protal. 
+![image](images/ShowJob.png)
+
 ### Students
-This page is for companies to browse students who they might want to reach out to given information listed in the jobs the company has available.
+This page is for companies to browse students who they might want to reach out to given information listed in the jobs the company has available. Users can see other students, their skills, and experiences.
 
 ![image](images/ListStudents.png)
 
