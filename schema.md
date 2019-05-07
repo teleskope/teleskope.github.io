@@ -1,69 +1,62 @@
 # Schema definitions
 
-# User
+# Profile
 ```
 {
-  firstName: String, 
-  lastName: String,
-  email: String,
-  password: String,
-  linkedin: String,
-  twitter: String,
-  github: String,
+  owner: { type: String, required: true },
+  role: { type: String, required: true },
+  firstName: { type: String, required: true },
+  lastName: { type: String, required: true },
+  website: String,
+  socials: { type: Array },
+    'socials.$': Object,
+    'socials.$.provider': String,
+    'socials.$.link': String,
+  zipCode: String,
+  following: Array,
+  'following.$': String,
+  skills: Array,
+  'skills.$': String,
+  summary: String,
+  /* Find a way to have user input experiences individually, such as separate fields etc */
+  experience: String,
   image: String,
 }
 ```
 
-# Student extends User
+# Company
 ```
 {
-  super
-  name: String,
+  name: { type: String, required: true },
+  address: { type: String, required: true },
+  zipCode: { type: String, required: true },
   website: String,
-  skills: Array[skill_ids],
-  summary: Text,
-  experience: Array,
-}
-```
-
-# Admin extends User
-```
-{
-  super
-  name: String,
-}
-```
-
-# Company extends User
-```
-{
-  super
-  companyName: String,
-  website: String,
-  address: String,
-  zipCode: String,
-  skills: Array[skill_ids],
-  size: Integer, 
-  contact: String,
   summary: String,
-}
-```
-
-# Jobs 
-```
-{
-  title: String,
-  employmentType: {
-    type: String,
-    allowedValues: ['Full Time', 'Part Time'],
-    defaultValue: 'Full Time',
-  }
-  date: String, 
-  description: String,
-  location: String,
-  skills: Array[skill_ids],
-  requirements: String,
-  companyID: String,
+  owners: { type: Array, required: true },
+  image: String,
+  'owners.$': String,
+  socials: { type: Array },
+  'socials.$': Object,
+  'socials.$.provider': String,
+  'socials.$.link': String,
+  jobs: { type: Array },
+    'jobs.$': Object,
+    'jobs.$.title': String,
+    'jobs.$.employmentType': {
+      type: String,
+      allowedValues: ['Full Time', 'Part Time'],
+      defaultValue: 'Full Time',
+    },
+    'jobs.$.date': String,
+    'jobs.$.description': String,
+    'jobs.$.zipCode': String,
+    'jobs.$.requirements': String,
+    'jobs.$.skills': Array,
+    'jobs.$.skills.$': String,
+  notifications: { type: Array },
+    'notifications.$': Object,
+    'notifications.$.datetime': Date,
+    'notifications.$.content': String,
 }
 ```
 
