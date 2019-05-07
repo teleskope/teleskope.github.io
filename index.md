@@ -105,7 +105,7 @@ This page is for companies to browse students who they might want to reach out t
 ## Company profile page
 ![image](images/ShowCompany.png)
 
-### Show Company (Logged in as owner of the company
+### Show Profile page (Logged in as owner of the company
 ![image](images/ShowCompanyasCompany.png)
 
 ## Job show
