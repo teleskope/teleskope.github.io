@@ -23,6 +23,10 @@ Teleskope is an application that provides a new way for local and non-local comp
 3. Thought the sorting types would be more intuitive if they could be reversed as well. 
 4. Thinks navigating to your own student profile should allow you to edit it instead of having to go to the /profile path. 
 
+#### Reid D.
+1.  Thought the colors and customer review on the landing page were nice, but thinks the reviews should be listed at the bottom and the statistics more centered.
+2.  Would have liked to see links on the landing page, perhaps in the text or pictures to something like "exploring opportunities". 
+
 
 
 
