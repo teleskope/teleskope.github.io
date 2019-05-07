@@ -71,7 +71,7 @@ This page is for students to browse companies that are on the site that they mig
 
 ### Show Company (Logged in as owner of the company
 When a user that owns a company profile visits their company page, it lists the information about that company. Also, links to edit the company information and add a job to their listing appears here.
-![image](images/ShowCompany.png)
+![image](images/ShowCompanyasCompany.png)
 
 ### Job 
 A user can see an individual job posting for a company, its description and click to link them to the online application protal. 
@@ -117,6 +117,11 @@ This page is for companies to browse students who they might want to reach out t
 
 ## Company Registration
 ![image](images/registercompany.png)
+
+## Edit Company
+
+## Add Job
+![image](images/AddJob.png)
 
 # Actors
 
