@@ -11,6 +11,15 @@
 # About Teleskope
 Teleskope is an application that provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site with their interests. The site can match students to employers and vice-versa.
 
+### Community Feedback
+#### Jackie L.
+1. Liked the how jobs cards are displayed on a companies page.
+2. Did not like the fact that when you submit an account, it does not redirect you from the registration page.
+3. Thought the follow function was very useful for keeping track of job postings.
+
+
+
+
 ### Visit our deployed page
 [teleskope.meteorapp.com/](http://teleskope.meteorapp.com/#/)
 
