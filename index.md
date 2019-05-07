@@ -33,7 +33,7 @@ Teleskope is an application that provides a new way for local and non-local comp
 
 
 
-# Developer Guide
+# Developer's Guide
 This app was built using the Meteor web framework, with MogoDB as the database. Semantic-UI and ReactJS were used to design our user interface. More information on these technologies can be found in the links below:
 * [Meteor](https://www.meteor.com/)
 * [MongoDB](https://www.mongodb.com/)
@@ -52,7 +52,7 @@ This app was built using the Meteor web framework, with MogoDB as the database. 
 
 
 
-## User Guide
+# User Guide
 This section will showcase the different pages on our site including what they do and what they look like!
 
 ### Landing
