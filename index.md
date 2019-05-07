@@ -36,7 +36,7 @@ This section will showcase the different pages on our site including what they d
 
 ### Landing
 The landing page serves to welcome you to the site and direct you to register as a student or company while offering information about how the site is doing and who we are.
-![image](images/Landingv2.png)
+![image](images/Landing.png)
 
 ### Dashboard
 The dashboard is the first page you are directed to once you log in. It serves as your hub for viewing any notifications you have about companies interested in you and companies you are following or students you are interested in if you are logged in as a company.
@@ -47,17 +47,17 @@ The dashboard is the first page you are directed to once you log in. It serves a
 ### My Profile
 This page is for viewing everything about yourself. If you're a student it's your place that companies will find information about you to decide if they want to hire you. If you're a company it will show your company information and list your current openings.
 
-![image](images/myProfile.png)
+![image](images/Profile.png)
 
 ### Companies
 This page is for students to browse companies that are on the site that they might want to reach out to or express interest in.
 
-![image](images/Companies.png)
+![image](images/ListCompanies.png)
 
 ### Students
 This page is for companies to browse students who they might want to reach out to given information listed in the jobs the company has available.
 
-![image](images/Students.png)
+![image](images/ListStudents.png)
 
 # Project Goals
 * Students and Companies can create accounts. 
@@ -68,6 +68,7 @@ This page is for companies to browse students who they might want to reach out t
 ## Project Boards
 * [Milestone 1](https://github.com/teleskope/teleskope/projects/1)
 * [Milestone 2](https://github.com/teleskope/teleskope/projects/2)
+* [Milestone 3](https://github.com/teleskope/teleskope/projects/3)
 
 # Mockups
 ## Landing page
@@ -83,7 +84,7 @@ This page is for companies to browse students who they might want to reach out t
 ![image](images/ShowStudent.png)
 
 ## Company profile page
-![image](images/showcompany.png)
+![image](images/ShowCompany.png)
 
 ## Job show
 ![image](images/ShowJob.png)
@@ -109,11 +110,8 @@ This page is for companies to browse students who they might want to reach out t
 - companies
   - index (/companies)
   - show (/companies/:id)
-- jobs
-  - index(/companies/:id/jobs)
-  - show(/companies/:id/jobs/:jobid)
-- settings 
-  - edit profile (/settings/profile)
+- Profile (/profile)
+- Dashboard (/dashboard)
 - Authentication
-  - registration (/sign-up)
-  - sign in (/sign-in)
+  - registration (/signup)
+  - sign in (/signin)
