@@ -2,10 +2,13 @@
 
 * [About Teleskope](#about-teleskope)
 * [Developer Guide](#developer-guide)
+  * [Installation](#installation)
 * [Community Feedback](#community-feedback)
 * [Mockups](#mockups)
 * [Actors](#actors)
 * [Routes](#routes)
+
+
 
 # About Teleskope
 Teleskope is an application that provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site and choose skills they have.  As a company owner, one can own more than one company and add job opportunities under these companies.  In order to attain workers fit for the job a company can add skills to the job.  The app will then recommend companies to students based on te number of common skills between a student and all of the skills jobs listed under the company.  A student will also be able to follow companies and be notified of the companies actions (new job opportunities, removing job opportunities, etc.).  
@@ -29,7 +32,13 @@ Teleskope is an application that provides a new way for local and non-local comp
 
 
 
+
 # Developer Guide
+This app was built using the Meteor web framework, with MogoDB as the database. Semantic-UI and ReactJS were used to design our user interface. More information on these technologies can be found in the links below:
+* [Meteor](https://www.meteor.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Semantic-UI](https://semantic-ui.com/)
+* [ReactJS](https://reactjs.org/)
 
 ## Installation
 1. Install Meteor
@@ -40,13 +49,10 @@ Teleskope is an application that provides a new way for local and non-local comp
 >  `$ meteor npm run start`
 5. Go to `localhost:3000` 
 
-## Modification
 
 
 
-
-
-# User Guide
+## User Guide
 This section will showcase the different pages on our site including what they do and what they look like!
 
 ### Landing
