@@ -1,16 +1,20 @@
 # Table of contents
 
 * [About Teleskope](#about-teleskope)
-* [Installation](#installation)
-* [Project Goals](#project-goals)
-  * [Project Boards](#project-boards)
+* [Developer Guide](#developer-guide)
+* [Community Feedback](#community-feedback)
 * [Mockups](#mockups)
 * [Actors](#actors)
 * [Routes](#routes)
-* [Community Feedback](#community-feedback)
 
 # About Teleskope
 Teleskope is an application that provides a new way for local and non-local companies who want to recruit students from UH to make their (potential) opportunities known to students. At the same time, students can create profiles on the site and choose skills they have.  As a company owner, one can own more than one company and add job opportunities under these companies.  In order to attain workers fit for the job a company can add skills to the job.  The app will then recommend companies to students based on te number of common skills between a student and all of the skills jobs listed under the company.  A student will also be able to follow companies and be notified of the companies actions (new job opportunities, removing job opportunities, etc.).  
+
+## Project Goals
+* Students and Companies can create accounts. 
+* Students can view recruiting companies and available positions. 
+* Students can find companies that match their skillset & interests. 
+* Companies can easily view interested students and receive emails. 
 
 ### Visit our deployed page
 [teleskope.meteorapp.com/](http://teleskope.meteorapp.com/#/)
@@ -23,14 +27,24 @@ Teleskope is an application that provides a new way for local and non-local comp
 ### See our code on Github!
 [github.com/teleskope/teleskope](https://github.com/teleskope/teleskope)
 
-# Installation
+
+
+# Developer Guide
+
+## Installation
 1. Install Meteor
 2. Fork this repo
-3. CD in to the project's app directory and install dependencies
+3. In the terminal, go into the project's app directory and install dependencies using the following command:
 > `$ meteor npm install`
 4. Run the app
->  `$ meteor npm start`
+>  `$ meteor npm run start`
 5. Go to `localhost:3000` 
+
+## Modification
+
+
+
+
 
 # User Guide
 This section will showcase the different pages on our site including what they do and what they look like!
@@ -43,7 +57,6 @@ The landing page serves to welcome you to the site and direct you to register as
 The dashboard is the first page you are directed to once you log in. It serves as your hub for viewing any notifications you have about companies interested in you and companies you are following or students you are interested in if you are logged in as a company.
 
 ![image](images/Dashboard.png)
-
 
 ### My Profile
 This page is for viewing everything about yourself. If you're a student it's your place that companies will find information about you to decide if they want to hire you. If you're a company it will show your company information and list your current openings.
@@ -64,73 +77,9 @@ This page is for companies to browse students who they might want to reach out t
 
 ![image](images/ListStudents.png)
 
-# Project Goals
-* Students and Companies can create accounts. 
-* Students can view recruiting companies and available positions. 
-* Students can find companies that match their skillset & interests. 
-* Companies can easily view interested students and receive emails. 
 
-## Project Boards
-* [Milestone 1](https://github.com/teleskope/teleskope/projects/1)
-* [Milestone 2](https://github.com/teleskope/teleskope/projects/2)
-* [Milestone 3](https://github.com/teleskope/teleskope/projects/3)
 
-# Mockups
-## Landing page
-![image](images/Landing.png)
 
-## Company Index (logged in)
-![image](images/ListCompanies.png)
-
-## Students Index (logged in)
-![image](images/ListStudents.png)
-
-## Student profile page
-![image](images/ShowStudent.png)
-
-## Company profile page
-![image](images/ShowCompany.png)
-
-### Show Profile page (Logged in as owner of the company
-![image](images/ShowCompanyasCompany.png)
-
-## Job show
-![image](images/ShowJob.png)
-
-## Student Registration
-![image](images/registerstudent.png)
-
-## Company Registration
-![image](images/registercompany.png)
-
-## Edit Company
-![image](images/EditCompany.png)
-
-## Add Job
-![image](images/AddJob.png)
-
-# Actors
-
-* Student
-* Company
-* Administrator 
-
-# routes 
-- root (/) 
-> root path will change depending on whether a user is authenticated as a Admin, Student or a Company. Landing page will be displayed if not logged in. 
-- students
-  - show profile (/students/:username) 
-  - index (/students) **admin only**
-- companies
-  - index (/companies)
-  - show (/companies/:id)
-- Profile (/profile)
-- Dashboard (/dashboard)
-- Authentication
-  - registration (/signup)
-  - sign in (/signin)
-  
-  
 # Community Feedback
 #### Jackie L.
 1. Liked the how jobs cards are displayed on a companies page.
@@ -167,3 +116,68 @@ This page is for companies to browse students who they might want to reach out t
 6.  Company owner can apply to jobs
 7.  Can't add a company
 8.  Liked the logo
+
+
+
+
+# Mockups
+## Landing page
+![image](images/Landing.png)
+
+## Company Index (logged in)
+![image](images/ListCompanies.png)
+
+## Students Index (logged in)
+![image](images/ListStudents.png)
+
+## Student profile page
+![image](images/ShowStudent.png)
+
+## Company profile page
+![image](images/ShowCompany.png)
+
+### Show Profile page (Logged in as owner of the company
+![image](images/ShowCompanyasCompany.png)
+
+## Job show
+![image](images/ShowJob.png)
+
+## Student Registration
+![image](images/registerstudent.png)
+
+## Company Registration
+![image](images/registercompany.png)
+
+## Edit Company
+![image](images/EditCompany.png)
+
+## Add Job
+![image](images/AddJob.png)
+
+
+
+
+# Actors
+* Student
+* Company
+* Administrator 
+
+
+
+
+# routes 
+- root (/) 
+> root path will change depending on whether a user is authenticated as a Admin, Student or a Company. Landing page will be displayed if not logged in. 
+- students
+  - show profile (/students/:username) 
+  - index (/students) **admin only**
+- companies
+  - index (/companies)
+  - show (/companies/:id)
+- Profile (/profile)
+- Dashboard (/dashboard)
+- Authentication
+  - registration (/signup)
+  - sign in (/signin)
+  
+ 
